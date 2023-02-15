@@ -9,6 +9,30 @@ title: "Demo Frontend-projekt Shoppinglist"
 
 # Demo Frontend-projekt Shoppinglist
 
-## Det här är markdown!
+---
+
+## Det här är markdown! 
+
+---
 
 🦆
+
+---
+
+Tre --- : nästa slide
+
+---
+
+Två -- : kan slida ner
+
+--
+
+så här
+
+--
+
+protip: tryck på space istället för höger, annars kan man glömma slides
+
+---
+
+Se sample.md för mer tekniker!
