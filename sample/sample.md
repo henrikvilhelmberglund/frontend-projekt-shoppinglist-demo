@@ -7,8 +7,8 @@ slideNumber: false
 title: "VSCode Reveal intro"
 ---
 
-::: block
-*here be dragons* {style=background:red;width:500px}
+::: {style=background:red;width:500px}
+*here be dragons* 
 ::: 
 
 ---
