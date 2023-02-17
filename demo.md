@@ -11,11 +11,20 @@ title: "Demo Frontend-projekt Shoppinglist"
 
 ---
 
-## Det här är markdown! 
+## Det här är markdown!
 
 ---
 
 🦆
+
+---
+
+# Saker att prata om
+
+vad har vi?
+hur mycket tid har vi kvar?
+viktigare att saker fungerar bra än features som inte fungerar
+vad är plan framåt
 
 ---
 
