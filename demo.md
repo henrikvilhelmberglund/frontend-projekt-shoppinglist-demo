@@ -35,6 +35,15 @@ efter ett tag insåg vi att vi kunde göra om sticky notes till cards och stoppa
 
 ---
 
+# Saker att prata om
+
+vad har vi?
+hur mycket tid har vi kvar?
+viktigare att saker fungerar bra än features som inte fungerar
+vad är plan framåt
+
+---
+
 ## Kodning
 
 --
