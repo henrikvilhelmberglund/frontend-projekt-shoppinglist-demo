@@ -2,37 +2,85 @@
 theme: "night"
 transition: "slide"
 highlightTheme: "monokai"
-logoImg: "logo.png"
+logoImg: "assets/e.webp"
 slideNumber: false
 title: "Demo Frontend-projekt Shoppinglist"
 ---
 
-# Demo Frontend-projekt Shoppinglist
+## Demo Frontend-projekt Shoppinglist
 
 ---
 
-## Det här är markdown! 
+## Var står vi?
 
 ---
 
-🦆
-
----
-
-Tre --- : nästa slide
-
----
-
-Två -- : kan slida ner
+## Planering i Miro
 
 --
 
-så här
+### Taskmapping
+
+<!-- .slide: data-background="/assets/miro_taskmapping.png"  data-background-opacity=0.1 -->
 
 --
 
-protip: tryck på space istället för höger, annars kan man glömma slides
+### Scrumboard
+
+<!-- .slide: data-background="/assets/miro_scrumboard.png"  data-background-opacity=0.1 -->
+
+lade först in lapparna i ett scrumboard { .fragment }
+
+efter ett tag insåg vi att vi kunde göra om sticky notes till cards och stoppa in i Kanban Framework { .fragment }
 
 ---
 
-Se sample.md för mer tekniker!
+## Kodning
+
+--
+
+### Github-repo (inställningar)
+
+<!-- .slide: data-background="/assets/github_repo.png"  data-background-opacity=0.1 -->
+
+Vi låste repot så att vi bara kunde committa med pull requests { .fragment }
+
+--
+
+### Vårt "flow"
+
+1. Göra ny feature branch { .fragment }
+2. Committa ändringar { .fragment }
+3. git pull origin main { .fragment }
+4. Lägga upp pull request { .fragment }
+5. Merga in pull request i main { .fragment }
+
+--
+
+### Extensions
+
+Vi gillade **Git Graph** och **GitHub Pull Requests and Issues**!
+
+--
+
+### Liveshare
+
+---
+
+## Hur gick det?
+
+---
+
+## När fastnade vi?
+
+---
+
+## Vad gick bra?
+
+---
+
+## Vad gick mindre bra?
+
+---
+
+## Vad ska vi göra härnäst?
