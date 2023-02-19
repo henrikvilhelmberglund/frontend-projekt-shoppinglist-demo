@@ -11,7 +11,7 @@ title: "Demo Frontend-projekt Shoppinglist"
 
 ---
 
-## Var står vi?
+## Vad har vi?
 
 ---
 
@@ -32,15 +32,6 @@ title: "Demo Frontend-projekt Shoppinglist"
 lade först in lapparna i ett scrumboard { .fragment }
 
 efter ett tag insåg vi att vi kunde göra om sticky notes till cards och stoppa in i Kanban Framework { .fragment }
-
----
-
-# Saker att prata om
-
-vad har vi?
-hur mycket tid har vi kvar?
-viktigare att saker fungerar bra än features som inte fungerar
-vad är plan framåt
 
 ---
 
