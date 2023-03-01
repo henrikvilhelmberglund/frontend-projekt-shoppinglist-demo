@@ -7,9 +7,25 @@ slideNumber: false
 title: "Demo Frontend-projekt Shoppinglist"
 ---
 
+### Moduler och Github
+
+---
+
 ## Moduler
 
 --
+
+:::
+
+index.html
+
+```js
+<script src="main.js" type="module" defer></script>
+```
+
+:::
+
+::: { .fragment }
 
 module-animations.js
 
@@ -26,21 +42,31 @@ export function showUpdateModal(text) {
 }
 ```
 
+:::
+
+::: { .fragment }
+
 stateEditMode.js (längst upp)
 
 ```js
 import { showUpdateModal } from "./module-animations.js";
 ```
 
+:::
+
+::: { .fragment }
+
 stateEditMode.js (rad 314)
 
-```js
+````js
 saveToAPIBtn.addEventListener("click", async () => {
     if (itemListArray.length > 0) {
       selectedList = await saveList();
       listItemsUl.innerHTML = "";
       showUpdateModal("Your list was saved!");
       ```
+
+:::
 
 ---
 
@@ -63,6 +89,34 @@ Vi låste repot så att vi bara kunde committa med pull requests { .fragment }
 3. git pull origin main { .fragment }
 4. Lägga upp pull request { .fragment }
 5. Merga in pull request i main { .fragment }
+
+--
+
+### Mergekonflikter
+
+var är min kod?
+
+![alt text](/assets/mergeconflict.gif "Title")
+
+--
+
+### Conventional commits
+
+![alt text](/assets/conventional_commits.png "Title") {.fragment }
+
+--
+
+Commit and tag version
+
+`npx commit-and-tag-version`
+
+--
+
+![alt text](/assets/changelog.png "Title")
+
+--
+
+![alt text](/assets/release.png "Title")
 
 ---
 
@@ -90,4 +144,5 @@ Vi gillade **Git Graph** och **GitHub Pull Requests and Issues**!
 
 ### Liveshare
 
----
+parprogrammering!
+````
