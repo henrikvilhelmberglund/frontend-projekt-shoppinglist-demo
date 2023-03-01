@@ -146,6 +146,8 @@ Vi gillade **Git Graph** och **GitHub Pull Requests and Issues**!
 
 ![alt text](/assets/github_pull_requests_and_issues.png "Title")
 
+---
+
 ## Lite stats
 
 - 526 commits {.fragment}
