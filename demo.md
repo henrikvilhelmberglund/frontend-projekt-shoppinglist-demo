@@ -40,7 +40,6 @@ saveToAPIBtn.addEventListener("click", async () => {
       selectedList = await saveList();
       listItemsUl.innerHTML = "";
       showUpdateModal("Your list was saved!");
-      saveToAPIBtn.className = "saveBtn hidden";
       ```
 
 ---
