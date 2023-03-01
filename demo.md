@@ -16,7 +16,7 @@ title: "Demo Frontend-projekt Shoppinglist"
 ---
 
 ## Vad har vi?
-
+nothinnnng
 ---
 
 ## Planering i Miro
