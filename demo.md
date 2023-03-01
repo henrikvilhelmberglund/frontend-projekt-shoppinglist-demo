@@ -7,39 +7,45 @@ slideNumber: false
 title: "Demo Frontend-projekt Shoppinglist"
 ---
 
-## This is a test
-
----
-
-## Demo Frontend-projekt Shoppinglist
-
----
-
-## Vad har vi?
-nothinnnng
----
-
-## Planering i Miro
+## Moduler
 
 --
 
-### Taskmapping
+module-animations.js
 
-<!-- .slide: data-background="/assets/miro_taskmapping.png"  data-background-opacity=0.1 -->
+```js
+export function showUpdateModal(text) {
+  let modal = document.createElement("div");
+  let main = document.querySelector("main");
+  modal.innerText = text;
+  modal.className = "update-modal";
+  main.prepend(modal);
+  setTimeout(() => {
+    main.removeChild(modal);
+  }, 1400);
+}
+```
 
---
+stateEditMode.js (längst upp)
 
-### Scrumboard
+```js
+import { showUpdateModal } from "./module-animations.js";
+```
 
-<!-- .slide: data-background="/assets/miro_scrumboard.png"  data-background-opacity=0.1 -->
+stateEditMode.js (rad 314)
 
-lade först in lapparna i ett scrumboard { .fragment }
-
-efter ett tag insåg vi att vi kunde göra om sticky notes till cards och stoppa in i Kanban Framework { .fragment }
+```js
+saveToAPIBtn.addEventListener("click", async () => {
+    if (itemListArray.length > 0) {
+      selectedList = await saveList();
+      listItemsUl.innerHTML = "";
+      showUpdateModal("Your list was saved!");
+      saveToAPIBtn.className = "saveBtn hidden";
+      ```
 
 ---
 
-## Kodning
+## Github
 
 --
 
@@ -59,32 +65,30 @@ Vi låste repot så att vi bara kunde committa med pull requests { .fragment }
 4. Lägga upp pull request { .fragment }
 5. Merga in pull request i main { .fragment }
 
---
+---
 
-### Extensions
+## Extensions
 
 Vi gillade **Git Graph** och **GitHub Pull Requests and Issues**!
+
+--
+
+### Git Graph
+
+--
+
+![alt text](/assets/git_graph.png "Title")
+
+--
+
+### GitHub Pull Requests and Issues
+
+--
+
+![alt text](/assets/github_pull_requests_and_issues.png "Title")
 
 --
 
 ### Liveshare
 
 ---
-
-## Hur gick det?
-
----
-
-## När fastnade vi?
-
----
-
-## Vad gick bra?
-
----
-
-## Vad gick mindre bra?
-
----
-
-## Vad ska vi göra härnäst?
