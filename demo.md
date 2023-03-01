@@ -70,6 +70,12 @@ saveToAPIBtn.addEventListener("click", async () => {
 
 ---
 
+### Liveshare
+
+parprogrammering!
+
+---
+
 ## Github
 
 --
@@ -140,9 +146,9 @@ Vi gillade **Git Graph** och **GitHub Pull Requests and Issues**!
 
 ![alt text](/assets/github_pull_requests_and_issues.png "Title")
 
---
+## Lite stats
 
-### Liveshare
+- 526 commits {.fragment}
+- 145 pull requests {.fragment}
+- 8 issues {.fragment}
 
-parprogrammering!
-````
