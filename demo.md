@@ -44,6 +44,8 @@ export function showUpdateModal(text) {
 
 :::
 
+--
+
 ::: { .fragment }
 
 stateEditMode.js (längst upp)
@@ -68,9 +70,47 @@ saveToAPIBtn.addEventListener("click", async () => {
 
 :::
 
+--
+
+### module-api.js
+
+```js
+export async function updateColor(color, listId) {
+  await fetch(
+    `https://nackademin-item-tracker.herokuapp.com/lists/${listId}`,
+    {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        color: color
+      }),
+    }
+    );
+    console.log("updateColor() done")
+}
+
+export async function createCustomList(listname, color) {
+  const customfield = "grupp_e";
+  const res = await fetch(`https://nackademin-item-tracker.herokuapp.com/lists`, {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({
+    listname: listname,
+    customfield: customfield,
+    color: color
+  }),
+});
+// const { list } = await res.json();
+}
+```
+
 ---
 
-### Liveshare
+## Liveshare
 
 parprogrammering!
 
